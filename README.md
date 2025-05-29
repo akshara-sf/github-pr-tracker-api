@@ -64,6 +64,10 @@ GET /api/prs/:username
 GET http://localhost:8080/api/prs/Jitesh
 ```
 
+```Hosted (Render):
+GET https://github-pr-tracker-api.onrender.com/api/prs/Jitesh2604
+```
+
 ---
 
 ## 📘 Sample Response

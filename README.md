@@ -70,16 +70,47 @@ GET http://localhost:8080/api/prs/Jitesh
 
 ```json
 {
-  "user": "Jitesh",
-  "open_pull_requests": [
-    {
-      "title": "Fix typo",
-      "repo": "hello-world",
-      "created_at": "2024-01-01T00:00:00Z"
-    }
-  ],
-  "closed_pull_requests": [],
-  "merged_pull_requests": []
+    "user": "Jitesh2604",
+    "open_pull_requests": [
+        {
+            "title": "Server",
+            "repo": "My-Library",
+            "created_at": "2025-05-13T11:01:09Z"
+        }
+    ],
+    "closed_pull_requests": [],
+    "merged_pull_requests": [
+        {
+            "title": "day5",
+            "repo": "Square_sink-7224",
+            "created_at": "2022-07-24T19:21:42Z",
+            "merged_at": "2022-07-24T19:21:52Z"
+        },
+        {
+            "title": "day5",
+            "repo": "Square_sink-7224",
+            "created_at": "2022-07-23T17:38:49Z",
+            "merged_at": "2022-07-23T17:38:58Z"
+        },
+        {
+            "title": "day4",
+            "repo": "Square_sink-7224",
+            "created_at": "2022-07-22T08:38:17Z",
+            "merged_at": "2022-07-22T08:38:26Z"
+        },
+        {
+            "title": "day3",
+            "repo": "Square_sink-7224",
+            "created_at": "2022-07-22T08:37:48Z",
+            "merged_at": "2022-07-22T08:37:58Z"
+        },
+        {
+            "title": "Day2",
+            "repo": "Square_sink-7224",
+            "created_at": "2022-07-22T08:37:21Z",
+            "merged_at": "2022-07-22T08:37:31Z"
+        }
+    ]
 }
 ```
 

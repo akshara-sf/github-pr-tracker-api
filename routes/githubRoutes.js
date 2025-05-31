@@ -1,8 +1,7 @@
-import express from 'express';
-import { getPullRequests } from "../controllers/githubController.js";
-
+const express = require('express');
 const router = express.Router();
+const prController = require('../controllers/prController');
 
-router.get('/prs/:username', getPullRequests);
+router.get('/prs', prController.getCategorizedPRs);
 
-export default router;
+module.exports = router;

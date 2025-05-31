@@ -71,4 +71,4 @@ const fetchPRs = async (username) => {
   }
 };
 
-export default fetchPRs;
+module.exports= fetchPRs;

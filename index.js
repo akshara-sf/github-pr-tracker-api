@@ -8,6 +8,9 @@ const app = express();
 
 app.use("/api", githubRoutes);
 
+const prRoutes = require('./routes/pr');
+app.use('/api', prRoutes);
+
 app.use((req, res) => {
     res.status(404).json({ error: "Route not found" });
 });
